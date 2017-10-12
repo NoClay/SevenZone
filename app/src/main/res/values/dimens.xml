@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="footerHeight">50dp</dimen>
+  <dimen name="dividerWidth">1dp</dimen>
+  <dimen name="imageButtonSize">40dp</dimen>
+  <dimen name="imageButtonMargin">5dp</dimen>
+</resources>
