@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@drawable/bg_polygon"
+                android:layout_width="match_parent"
+                android:padding="@dimen/normalPadding"
+                android:layout_height="@dimen/headerLayoutHeight">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/accountSize"
+        android:layout_height="@dimen/accountSize"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="?actionBarSize"
+        android:src="@drawable/ic_supervisor_account_black_24dp"/>
+    <ImageView
+        android:tint="@color/gold"
+        android:src="@drawable/ic_wb_sunny_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/imageButtonSize"
+        android:layout_height="@dimen/imageButtonSize"/>
+</RelativeLayout>

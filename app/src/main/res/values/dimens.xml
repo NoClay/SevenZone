@@ -4,4 +4,11 @@
   <dimen name="dividerWidth">1dp</dimen>
   <dimen name="imageButtonSize">40dp</dimen>
   <dimen name="imageButtonMargin">5dp</dimen>
+  <dimen name="accountSize">60dp</dimen>
+  <dimen name="fabSize">50dp</dimen>
+  <dimen name="fabMargin">10dp</dimen>
+  <dimen name="fabPressedTranslationZ">12dp</dimen>
+  <dimen name="fabElevation">6dp</dimen>
+  <dimen name="normalPadding">20dp</dimen>
+  <dimen name="headerLayoutHeight">256dp</dimen>
 </resources>

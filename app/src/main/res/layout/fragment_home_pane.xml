@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/chanelTab"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            app:tabIndicatorColor="@color/white"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/white">
+        </android.support.design.widget.TabLayout>
+
+        <ImageView
+            android:id="@+id/addChannel"
+            android:layout_width="@dimen/imageButtonSize"
+            android:layout_height="@dimen/imageButtonSize"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/imageButtonMargin"
+            android:layout_marginRight="@dimen/imageButtonMargin"
+            android:src="@drawable/ic_add_black_128dp"
+            android:tint="@color/white"/>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:elevation="@dimen/fabElevation"
+        app:pressedTranslationZ="@dimen/fabPressedTranslationZ"
+        app:borderWidth="0dp"
+        android:layout_margin="@dimen/fabMargin"
+        android:src="@drawable/ic_add_black_24dp"
+        android:tint="@color/white"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
